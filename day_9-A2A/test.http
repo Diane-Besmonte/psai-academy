@@ -1,0 +1,9 @@
+POST http://localhost:10000/v1/tasks
+Content-Type: application/json
+
+{
+  "assistant_id": "agent",
+  "messages": [
+    {"role": "user", "content": "What are the countries in southeast asia?"}
+  ]
+}
